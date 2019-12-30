@@ -1,0 +1,184 @@
+
+.secone {
+  margin-top: 100px;
+}
+.headingtop h2 {
+  font-size: 45px;
+
+}
+.headingtop p {
+  font-family: aktiv-grotesk, sans-serif;
+}
+.headingtop .btn-primary {
+  width: 180px;
+  font-family: aktiv-grotesk, sans-serif;
+  background-color: #0275d8;
+}
+.headingtop .btn-outline-primary {
+  margin-left: 20px;
+  width: 180px;
+  color: black;
+  font-family: aktiv-grotesk, sans-serif;
+  background-color: white;
+  border: 2px solid #0275d8;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-outline-primary{
+    margin-left: 0!important;
+    margin-top: 10px;
+  }
+}
+
+.sectwo {
+  background-image: url(../../assets/BG.png);
+  background-repeat: no-repeat;
+  margin-top: 100px !important;
+  background-size: 1200px 380px;
+}
+.bgimg {
+  margin: 0 auto;
+}
+
+.bgimg img {
+  position: relative;
+  margin-top: 10px;
+}
+.bgimg h5 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.secthree {
+  margin-top: 20px;
+}
+.btnsgrp {
+  margin: 0 auto;
+  text-align: center;
+}
+.btn-group > .btn:first-child {
+  margin-left: 20px;
+}
+
+.btn-group button {
+  border: 2px solid lightgray;
+  width: 130px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+}
+.btn-group button:hover {
+  border: 3px solid #0275d8;
+}
+.switch {
+  margin-top: 20px;
+}
+.switch label {
+  font-size: 15px;
+}
+.switch label input[type="checkbox"]:checked + .lever {
+  background-color: lightgray;
+}
+.switch label input[type="checkbox"]:checked + .lever:after {
+  background-color: #0275d8;
+}
+.cards {
+  margin-top: 20px;
+}
+.cards .card {
+  max-width: 200px;
+  margin: 0 auto;
+  height: 200px;
+}
+
+@media only screen and (min-width: 600px) {
+  .cards .card{
+    margin-right: 0;
+  }
+  .cards > div {
+    padding: 0;
+  }
+}
+
+
+.card h5 {
+  margin-left: 30px;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.card p {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.card:hover {
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.secfour {
+  margin-top: 100px;
+}
+.secfour h4 {
+  margin: 0 auto;
+  font-size: 25px;
+}
+blockquote {
+  text-align: left;
+  border-radius: 10px;
+  font-family: aktiv-grotesk, sans-serif;
+  font-style: italic;
+  color: darkgray;
+  line-height: 1.625;
+  position: relative;
+  border: none;
+  margin-top: 40px;
+}
+
+blockquote p {
+  text-align: center;
+}
+
+blockquote span {
+  position: relative;
+}
+
+blockquote span:before {
+  content: "“";
+  font-size: 90px;
+  font-weight: bold;
+  color: #0275d8;
+  position: absolute;
+  left: -55px;
+  top: 20px;
+  line-height: 0;
+}
+.fourone img {
+  margin-top: 40px;
+}
+.secfive {
+  margin-top: 50px;
+}
+.secfive h4 {
+  margin-top: 80px;
+  font-family: aktiv-grotesk, sans-serif, bold;
+  font-size: 30px;
+}
+
+.secfive .img-container {
+  padding: 50px;
+  text-align: center;
+}
+
+.secfive button {
+  background-color: #0275d8;
+  color: white;
+  width: 200px;
+  margin-top: 30px;
+}
+.fourtwo p {
+  font-size: 20px;
+  text-align: left;
+}
+.switch b{color: black;}

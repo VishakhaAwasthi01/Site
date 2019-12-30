@@ -1,0 +1,95 @@
+<div class="container">
+<div class="row secone">
+  <div class="col-lg-6 col-sm-12 headingtop">
+    <h2><b>Looking for a <br>lolipop alternative?</b></h2>
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting
+      industry. Lorem Ipsum has been the industry's <br>
+      standard dummy text ever since the 1500s,
+    </p>
+    <button type="button" class="btn btn-primary"><b>Primary CTA</b></button>
+    <button type="button" class="btn btn-outline-primary"><b>Secondary CTA</b></button>
+  </div>
+  <div class="col-lg-6 col-sm-12 img-portion text-center">
+    <img class="img-fluid" src="../../assets/globe.jpg">
+  </div>
+</div>
+<div class="row sectwo">
+  <div class="bgimg text-center">
+    <h5><b>This is a Heading in <br> two Lines</b></h5>
+    <img class="img-fluid" src="../../assets/Group 6.png">
+  </div>
+</div>
+<div class="clearfix"></div>
+
+<div class="row secthree">
+  <div class="btnsgrp">
+    <h5><b>Compare pricing today!</b></h5>
+    <p style="color: gray;">Lorem Ipsum is simply dummy text of the printing and <a href="">typesetting.</a></p>
+    <div class="btn-group">
+      <button type="submit" value="25" class="btn btn-light" (click)="getServing(25)"><b>25 Serving</b></button>
+      <button type="submit" value="50" class="btn btn-light" (click)="getServing(50)"><b>50 Serving</b></button>
+      <button type="submit" value="100" class="btn btn-light" (click)="getServing(100)"><b>100 Serving</b></button>
+      <button type="submit" value="200" class="btn btn-light" (click)="getServing(200)"><b>200 Serving</b></button>
+    </div>
+
+    <!-- Material switch -->
+    <div class="switch">
+      <label>
+        <b id="annual">Annual</b>
+        <input type="checkbox" id="monthly" checked (click)="getTotal(this.abc)">
+        <span class="lever"></span><b >Monthly</b>
+      </label>
+
+    </div>
+    <p style="text-align: left; margin-left: 200px;font-size: 12px; color: gray;"><b>50% Off</b></p>
+  </div>
+</div>
+<div class="row cards">
+  <div class="col-sm-12 col-lg-4">
+    <div class="card">
+      <h5><b>lollipop</b></h5>
+      <p><b style="font-size: 30px;">${{this.getLollipop()}}</b><i style="color: gray;"> Per {{this.getMonthOrYear()}}</i><br>For {{this.getServingNo()}} serving</p>
+    </div>
+  </div>
+  <div class="col-sm-12 col-lg-4">
+  <div class="card">
+    <h5><b>Icecandy</b></h5>
+    <p><b style="font-size: 30px;">${{this.getIcecandy()}}</b> <i style="color: gray;"> Per  {{this.getMonthOrYear()}}</i><br>For {{this.getServingNo()}} serving</p>
+  </div>
+  </div>
+  <div class="col-sm-12 col-lg-4">
+  <div class="card">
+    <h5><b>Your savings<br> with lollipop</b></h5>
+    <p style="margin-top: 5px !important;"><b style="color: skyblue; font-size: 30px;">${{this.getSavings()}}</b>
+      <br><i style="color: gray;margin-top: 5px !important;"> Per {{this.getMonthOrYear()}}</i></p>
+  </div>
+  </div>
+</div>
+<div class="row secfour text-center">
+  <div class="col-12"> 
+    <h4><b>Here's what our customers have to say</b> </h4>
+  </div>
+  <div class="col-sm-12 col-lg-6 fourone text-center">
+    <img class="img-fluid" src="../../assets/customer.jpg">
+  </div>
+  <div class="col-sm-12 col-lg-6 fourtwo">
+    <blockquote><span><b>Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</b></span>
+    </blockquote>
+    <p><b>Raja Ram</b><br>Tip world</p>
+
+  </div>
+</div>
+<div class="row secfive">
+  <div class="col-sm-12 col-lg-6">
+    <h4><b>Loved by users,<br>recommended by experts</b></h4>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s</p>
+    <button type="button" class="btn btn-primary"><b>Primary CTA</b></button>
+  </div>
+  <div class="col-sm-12 col-lg-6 img-container">
+    <img class="img-fluid" src="../../assets/Group 4.png">
+  </div>
+</div>
+</div>
