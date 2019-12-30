@@ -19,7 +19,7 @@ status :number;
   getServing(value :any){
      this.val = value;
   }
-  getTotal(status : number){
+  getTotal(){
     var incM  = <HTMLInputElement> document.getElementById('monthly');
     if(incM.checked === true){
      this.status = 1;
